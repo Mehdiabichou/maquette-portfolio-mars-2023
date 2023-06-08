@@ -1,0 +1,384 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+ul,
+li,
+h2,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+a {
+  display: inline-block;
+}
+.center-inline {
+  text-align: center;
+}
+.blue-link {
+  color: #30aabc;
+  font-size: 14px;
+}
+.blue-arrow {
+  margin-left: 10px;
+}
+/* ----------------------------------topbar------------------------------ */
+.topbar {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #f3c6bd;
+}
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.container-topbar {
+  display: flex;
+  justify-content: space-between;
+}
+.container-hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-bottom: 10px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  font-family: "Heebo ", sans-serif;
+}
+nav {
+  display: flex;
+  margin-right: 250px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.identification-button {
+  display: flex;
+  align-items: center;
+}
+.getstarted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 40px;
+  background-color: #fff;
+  margin-left: 35px;
+}
+.getstarted span {
+  margin-right: 15px;
+}
+/* ___________________________section hero_________________________________*/
+.hero {
+  height: 600px;
+  padding-top: 115px;
+
+  background-color: #f3c6bd;
+}
+.container-hero {
+  position: relative;
+}
+.left-side {
+  max-width: 420px;
+}
+.message {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.message h1 {
+  font-size: 37px;
+  line-height: 44px;
+  color: #d8d8d8;
+}
+.message p {
+  line-height: 25px;
+}
+.img-hero {
+  position: absolute;
+  left: 430px;
+  top: 100px;
+}
+.inputBtn-container {
+  display: flex;
+}
+input {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+}
+button {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input::placeholder {
+  color: #ababab;
+}
+.validation-box {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.select-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.select-box img {
+  display: inline-block;
+}
+/* ----------------------------section-customer-----------------------------------*/
+.customer p {
+  line-height: 23px;
+}
+
+.container-customer {
+  position: relative;
+}
+.img-customer {
+  position: absolute;
+  right: 1px;
+  bottom: 90px;
+}
+.support {
+  color: #82b5a5;
+  border: 1px solid #82b5a5;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+.titles {
+  padding-top: 135px;
+  padding-bottom: 55px;
+  margin: 0 auto;
+  text-align: center;
+}
+.titles h1 {
+  font-weight: 400;
+}
+.sub-titles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.sub-title {
+  padding-bottom: 10px;
+  width: 70px;
+}
+.sub-title2 {
+  padding-bottom: 10px;
+  width: 70px;
+}
+.active-mode {
+  width: 70px;
+  border-bottom: 3px solid #82b5a5;
+}
+
+/* @keyframes border_anim {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+} */
+.ms-customer {
+  padding-bottom: 55px;
+}
+.ms-customer h1 {
+  color: black;
+}
+.link-customer {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+}
+
+.link-customer span img {
+  padding-right: 5px;
+}
+/* ------------------------section use-it-------------------- */
+.use-it {
+  background-color: #f3c6bd;
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+.use-it-title {
+  padding-bottom: 75px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+.use-it-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 85px;
+}
+.icon-title {
+  font-size: 12px;
+  color: #575757;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-title-card {
+  font-size: 22px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+}
+.use-it-card p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #3d5154;
+}
+.link-card {
+  font-size: 14px;
+  color: #575757;
+}
+.link-card a {
+  display: flex;
+  align-items: center;
+}
+.link-card span {
+  margin-right: 5px;
+}
+
+/* _____________________________data-section____________________________________________ */
+
+.data {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.engagement {
+  color: #82b5a5;
+  border: 1px solid #82b5a5;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+.top-container a {
+  color: #30aabc;
+  font-size: 14px;
+}
+.middle-container {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.bottom-container-card {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.main-title-card {
+  font-size: 22px;
+}
+.card-data p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #3d5154;
+}
+
+/* _____________________________employees-coment________________________________ */
+
+.employees-coment h2 {
+  text-align: center;
+  margin-bottom: 66px;
+}
+.card-imgs {
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-imgs img {
+  display: block;
+}
+.card-employees-coment {
+  background-color: #fefaf8;
+  max-width: 580px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 47px 64px;
+}
+.coment p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 135px;
+}
+.img-footer {
+  margin-right: 20px;
+}
+.small-p {
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* ---------------------------learningandpracticeManaging------------------------- */
+.center-el {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.practice {
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+
+.practice h2 {
+  margin-bottom: 65px;
+}
+
+.practice-cards {
+  max-height: 335px;
+  display: flex;
+
+  gap: 55px;
+}
+.practice-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
